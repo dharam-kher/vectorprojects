@@ -1,0 +1,39 @@
+//1. remove in same file.
+//2. copy it in another without comments(putc aslong as // happens )
+
+#include<abc.h>
+#include<def.h>
+
+#define EOF -1
+void main(int argc,char **argv){
+	if(argc < 2){
+		printf("use: ./rmcmt <fileName>\n");
+		return;
+	}
+/*char ch,i;EOF
+	FILE *fp;
+
+	for(i=1; i<argc; i++){*/
+		fp= //fopen(argv[i],"r+");EOF
+			if(fp == 0){
+				perror("fopen: ")EOF;
+				return;
+			}
+/* this is 
+multiy line comment 
+there should be space
+*/
+		while((ch= fgetc(fp)) != EOF){
+			if//(ch== '/'){
+				if((ch= getc(fp)) == '/'){
+					fseek(fp,-2,SEEK_CUR);/*this is also multyline coment*/
+					while(fgetc(fp) != '\n'){
+						fseek(fp,-1,SEEK_CUR);
+						//fputc('EOF ',fp);
+					}
+				}
+			}	
+		EOF
+		}
+	}//first for loop end
+}

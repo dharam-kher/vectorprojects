@@ -1,0 +1,10 @@
+-> make all necessary banking operations using dynamic link list
+	open and acount 
+	close account
+	add balance 
+	transfer some ammount to other people in same bank
+	print data (file operations passbook)
+
+
+-> time and space complexity should be minimal
+-> stack and queue for quick 

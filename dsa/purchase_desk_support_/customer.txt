@@ -1,0 +1,7 @@
+customer name = dharam
+HsnNO = 1 : quantity : 5 
+HsnNO = 1 : quantity : 5 
+HsnNO = 4 : quantity : 1 
+customer name = abhishek
+HsnNO = 1 : quantity : 10 
+HsnNO = 2 : quantity : 2 
